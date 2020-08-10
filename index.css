@@ -1,0 +1,29 @@
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 300;
+	src: local("UniSansHeavyCAPS");
+}
+
+body{
+    background-color: #2C2F33;
+  }
+  div.TopLeftMenu{
+      background-color:#23272A;
+      width: 300px;
+      height:20px;  
+      padding: 20px;
+      margin: -10px;
+  }
+  div.LeftMenu{
+    background-color: #23272A;
+    width: 300px;
+    height: 1000px;
+    border: 15px #23272A;
+    padding: 20px;
+    margin: -10px;
+  }
+  h1, h2, h3, p{
+      font-family: system-ui, 'UniSansHeavyCAPS';
+      color: white;
+  }
