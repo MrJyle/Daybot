@@ -49,7 +49,7 @@ body{
       top: 100px;
   }
   div.information{
-    position: relatived;
+    position: static;
     left: 500px;
   }
   div.commands{
