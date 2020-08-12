@@ -1,36 +1,24 @@
-@font-face {
-	font-family: system-ui;
-	font-style: normal;
-	font-weight: 300;
-	src: local("UniSansHeavyCAPS");
-}
-html{
-    overflow:auto;
-}
 body{
     background-color: #2C2F33;
-    overflow:initial;
+    overflow:auto;
     height: 4000px;
   }
 
 
   h1, h2, h3, p {
-      font-family: system-ui, 'UniSansHeavyCAPS';
+      font-family:"Verdana", Geneva, Tahoma, sans-serif;
       color: white;
+      font-size: x-large;
   }
   nav{
       background-color: #23272A;
       width: 300px;
-      height: 1000px;
-      padding: 20px;
+      height: 3000px;
+      padding: 30px;
       margin:-7px;
-      bottom: -93px;
-  }
-  nav.navigation{
-    position: fixed;
-  }
-  nav.teleport{
-      position: absolute;
+      bottom: auto;
+      top:auto;
+      position: fixed;
   }
   ul.rate{
     position: relative;
@@ -39,9 +27,9 @@ body{
   li{
       list-style-type: "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎-‏‏‎ ‎‏‏‎ ‎";
       color: white; 
-      font-family: system-ui, 'UniSansHeavyCAPS';
+      font-family:"Verdana", Geneva, Tahoma, sans-serif;
       color: white;
-      font-size: larger;     
+      font-size: large;     
   }
   div.body{
       position: relative;
@@ -49,7 +37,7 @@ body{
       top: 100px;
   }
   div.information{
-    position: relatived;
+    position: static;
     left: 500px;
   }
   div.commands{
@@ -72,7 +60,7 @@ body{
       text-align: center;
       padding: 1px;
       width: 150px;
-      font-family: system-ui, 'UniSansHeavyCAPS';
+      font-family:"Verdana", Geneva, Tahoma, sans-serif;
       color: white;
       font-size: large;
   }
